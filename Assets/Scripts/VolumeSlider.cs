@@ -38,7 +38,7 @@ public class VolumeSlider : MonoBehaviour
 
     public void SetVolume(float value)
     {
-        if (_audioMixer == null || _audioMixer == null)
+        if (_audioMixer == null || _parameterVolume == null)
             return;
 
         _audioMixer.SetFloat(_parameterVolume, Mathf.Log10(value) * DecibelMultiplier);

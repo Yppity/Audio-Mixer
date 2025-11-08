@@ -36,6 +36,9 @@ public class MuteToggleButton : MonoBehaviour
 
     public void ToggleMute()
     {
+        if (_audioMixer == null || _parameterVolume == null)
+            return;
+
         _isMute = !_isMute;
 
         _audioMixer.SetFloat(_parameterVolume, _isMute ? MuteVolume : UnmuteVolume);
