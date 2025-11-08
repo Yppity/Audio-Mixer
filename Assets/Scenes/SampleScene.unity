@@ -343,6 +343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 91124857}
   - component: {fileID: 91124858}
+  - component: {fileID: 91124859}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -423,7 +424,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 709475590}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Soundbar, Assembly-CSharp
         m_MethodName: SetMusicVolume
         m_Mode: 0
@@ -435,6 +436,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &91124859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91124856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645474c836ff8d49a215e4d39cdb5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &132898891
 GameObject:
   m_ObjectHideFlags: 0
@@ -483,6 +496,7 @@ GameObject:
   - component: {fileID: 248121061}
   - component: {fileID: 248121060}
   - component: {fileID: 248121059}
+  - component: {fileID: 248121062}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -555,9 +569,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1945722158}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: PlayOneShot
+        m_MethodName: 
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: 8aac0534e0cf57c44b5bb4f49ea20730, type: 3}
@@ -605,6 +619,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 248121057}
   m_CullTransparentMesh: 1
+--- !u!114 &248121062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 248121057}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e424d2a161800459b0808c8f250d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 1945722158}
+  _clip: {fileID: 8300000, guid: 8aac0534e0cf57c44b5bb4f49ea20730, type: 3}
 --- !u!1 &255551190
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +681,7 @@ GameObject:
   - component: {fileID: 294130636}
   - component: {fileID: 294130635}
   - component: {fileID: 294130634}
+  - component: {fileID: 294130637}
   m_Layer: 5
   m_Name: Button sound on/off
   m_TagString: Untagged
@@ -724,7 +753,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 709475590}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Soundbar, Assembly-CSharp
         m_MethodName: ToggleMute
         m_Mode: 1
@@ -774,6 +803,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 294130632}
   m_CullTransparentMesh: 1
+--- !u!114 &294130637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 294130632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fd581a4a0d244f498a24b4d45d9c786, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &294478217
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,6 +1237,7 @@ GameObject:
   m_Component:
   - component: {fileID: 571652933}
   - component: {fileID: 571652934}
+  - component: {fileID: 571652935}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1276,7 +1318,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 709475590}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Soundbar, Assembly-CSharp
         m_MethodName: SetEffectsVolume
         m_Mode: 0
@@ -1288,6 +1330,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &571652935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 571652932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645474c836ff8d49a215e4d39cdb5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &615404873
 GameObject:
   m_ObjectHideFlags: 0
@@ -1725,10 +1779,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 709475586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 587c4d3b9d1aa1542904b30def8b7afb, type: 3}
+  m_Script: {fileID: 11500000, guid: 550229fb16bd5bb4bb7c2781ed42959b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _audioMixer: {fileID: 24100000, guid: 3bf79f570f591994698e39b874e59b17, type: 2}
+  _muteToggleButton: {fileID: 294130637}
+  _mainVolumeSlider: {fileID: 1716357389}
+  _musicVolumeSlider: {fileID: 91124859}
+  _effectsVolumeSlider: {fileID: 571652935}
 --- !u!1 &848581720
 GameObject:
   m_ObjectHideFlags: 0
@@ -1963,6 +2021,7 @@ GameObject:
   - component: {fileID: 885862940}
   - component: {fileID: 885862939}
   - component: {fileID: 885862938}
+  - component: {fileID: 885862941}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -2035,9 +2094,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1989197514}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: PlayOneShot
+        m_MethodName: 
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: 68da33f1b778c704ea06e52a2734d1dc, type: 3}
@@ -2085,6 +2144,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885862936}
   m_CullTransparentMesh: 1
+--- !u!114 &885862941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 885862936}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e424d2a161800459b0808c8f250d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 1989197514}
+  _clip: {fileID: 8300000, guid: 68da33f1b778c704ea06e52a2734d1dc, type: 3}
 --- !u!1 &888581007
 GameObject:
   m_ObjectHideFlags: 0
@@ -2261,6 +2334,7 @@ GameObject:
   - component: {fileID: 981613069}
   - component: {fileID: 981613068}
   - component: {fileID: 981613067}
+  - component: {fileID: 981613070}
   m_Layer: 5
   m_Name: Button (3)
   m_TagString: Untagged
@@ -2333,9 +2407,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 665814085}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
-        m_MethodName: PlayOneShot
+        m_MethodName: 
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 8300000, guid: 054cb30da4ab58743a3dd2099163221e, type: 3}
@@ -2383,6 +2457,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981613065}
   m_CullTransparentMesh: 1
+--- !u!114 &981613070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 981613065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47e424d2a161800459b0808c8f250d82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSource: {fileID: 665814085}
+  _clip: {fileID: 8300000, guid: 054cb30da4ab58743a3dd2099163221e, type: 3}
 --- !u!1 &1033218037
 GameObject:
   m_ObjectHideFlags: 0
@@ -3282,6 +3370,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1716357387}
   - component: {fileID: 1716357388}
+  - component: {fileID: 1716357389}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -3362,7 +3451,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 709475590}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: Soundbar, Assembly-CSharp
         m_MethodName: SetMainVolume
         m_Mode: 0
@@ -3374,6 +3463,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &1716357389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716357386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4645474c836ff8d49a215e4d39cdb5ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1909491645
 GameObject:
   m_ObjectHideFlags: 0
