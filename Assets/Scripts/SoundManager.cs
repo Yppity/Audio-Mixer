@@ -22,6 +22,4 @@ public class SoundManager : MonoBehaviour
         _musicVolumeSlider.Initialize(_audioMixer, AudioMixerMusicVolumeName);
         _effectsVolumeSlider.Initialize(_audioMixer, AudioMixerEffectsVolumeName);
     }
-
-    
 }
